@@ -17,7 +17,6 @@ public class Register {
 
 	public List<Room> enquire(Date startDate, Date endDate, RoomType roomType) {
 		
-		return List<Room>;
 	}
 	
 
