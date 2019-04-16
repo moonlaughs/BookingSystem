@@ -11,7 +11,7 @@ public class Guest {
 	private int idCardNo;
 	private int accountNo;
 	private Date expiryDate;
-	private int seureCode;
+	private int secureCode;
 	
 	public int getGuestId() {
 		return guestId;
@@ -56,10 +56,10 @@ public class Guest {
 		this.expiryDate = expiryDate;
 	}
 	public int getSeureCode() {
-		return seureCode;
+		return secureCode;
 	}
 	public void setSeureCode(int seureCode) {
-		this.seureCode = seureCode;
+		this.secureCode = seureCode;
 	}
 
 	public Guest(int guestId, String firstname, String surname, String emailAddress, int idCardNo, int accountNo,
@@ -71,14 +71,14 @@ public class Guest {
 		this.idCardNo = idCardNo;
 		this.accountNo = accountNo;
 		this.expiryDate = expiryDate;
-		this.seureCode = seureCode;
+		this.secureCode = seureCode;
 	}
 	
 	@Override
 	public String toString() {
 		return "Guest [guestId=" + guestId + ", firstname=" + firstname + ", surname=" + surname + ", emailAddress="
 				+ emailAddress + ", idCardNo=" + idCardNo + ", accountNo=" + accountNo + ", expiryDate=" + expiryDate
-				+ ", seureCode=" + seureCode + "]";
+				+ ", seureCode=" + secureCode + "]";
 	}
 	
 }

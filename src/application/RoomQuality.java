@@ -2,7 +2,7 @@ package application;
 
 public enum RoomQuality {
 
-	Standard,
-	Superior,
-	Deluxe
+	STANDARD,
+	SUPERIOR,
+	DELUXE
 }

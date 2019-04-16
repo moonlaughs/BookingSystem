@@ -4,9 +4,8 @@ import java.util.Date;
 
 public class PriceTable {
 
-	private double price;
-	
 	private Season season;
+	private double price;
 	
 	public double getPrice()
 	{
