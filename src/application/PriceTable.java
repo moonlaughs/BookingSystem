@@ -1,5 +1,7 @@
 package application;
 
+import java.util.Date;
+
 public class PriceTable {
 
 	private double price;
@@ -20,6 +22,15 @@ public class PriceTable {
 	{
 		this.price = price;
 		this.season = season;
+	}
+	
+	public double getTotalPrice(Date startDate, Date endDate)
+	{
+		double totalPrice = 0;
+		
+		
+		
+		return totalPrice;
 	}
 	
 	@Override
